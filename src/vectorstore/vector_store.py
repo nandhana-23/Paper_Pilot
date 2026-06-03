@@ -74,7 +74,7 @@ class VectorStore:
 
             results.append(
                 {
-                    "score": float(distance),
+                    "distance": float(distance),
                     "metadata": self.metadata[idx]
                 }
             )
