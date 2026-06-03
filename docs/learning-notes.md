@@ -10,3 +10,29 @@ What is a vector database?
 -values as vector in db
 What is semantic search?
 - meaning based search 
+
+14.09
+What is chunking?
+
+Breaking large documents into smaller pieces before embedding.
+
+Why?
+
+- Better retrieval
+- Lower token usage
+- Better semantic matching
+
+What is overlap?
+
+Repeating part of the previous chunk in the next chunk.
+
+Example:
+
+Chunk 1:
+A B C D E
+
+Chunk 2:
+D E F G H
+
+Purpose:
+Prevent context loss at boundaries.
